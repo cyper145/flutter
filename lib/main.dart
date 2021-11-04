@@ -29,8 +29,9 @@ class MyApp extends StatelessWidget {
                 const Icon(
                   Icons.arrow_back,
                   color: Colors.black,
+                  size: 25,
                 ),
-                const SizedBox(width: 5),
+                const SizedBox(width: 10),
                 Expanded(
                   child: Container(
                     margin:
@@ -48,9 +49,11 @@ class MyApp extends StatelessWidget {
                     ),
                   ),
                 ),
+                const SizedBox(width: 10),
                 const Icon(
                   Icons.camera_alt,
                   color: Colors.black,
+                  size: 25,
                 ),
                 const SizedBox(width: 10)
               ],

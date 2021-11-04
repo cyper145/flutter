@@ -34,10 +34,7 @@ class _CardProductState extends State<CardProduct> {
     return Container(
       padding: const EdgeInsets.all(0),
       margin: const EdgeInsets.only(bottom: 20),
-      width: responsive.wp(46),
-      decoration: BoxDecoration(
-        borderRadius: BorderRadius.circular(5),
-      ),
+      decoration: BoxDecoration(borderRadius: BorderRadius.circular(5)),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
@@ -45,6 +42,8 @@ class _CardProductState extends State<CardProduct> {
             padding: const EdgeInsets.symmetric(vertical: 25, horizontal: 30),
             margin: const EdgeInsets.all(0),
             color: Colors.grey[100],
+            width: responsive.wp(45),
+            height: responsive.wp(45),
             child: Image.asset(
               widget.path,
               alignment: Alignment.center,
