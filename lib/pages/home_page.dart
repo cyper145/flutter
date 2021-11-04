@@ -30,7 +30,7 @@ class _HomePagerState extends State<HomePage> {
               child: const Text(
                 "Resultados de Busquedas",
                 textAlign: TextAlign.left,
-                style: TextStyle(fontWeight: FontWeight.bold),
+                style: TextStyle(fontSize: 14, fontWeight: FontWeight.bold),
               ),
             ),
             Row(

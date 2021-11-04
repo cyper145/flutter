@@ -42,8 +42,6 @@ class _CardProductState extends State<CardProduct> {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Container(
-            width: 200,
-            height: 150,
             padding: const EdgeInsets.symmetric(vertical: 25, horizontal: 30),
             margin: const EdgeInsets.all(0),
             color: Colors.grey[100],
@@ -64,7 +62,7 @@ class _CardProductState extends State<CardProduct> {
                   textAlign: TextAlign.left,
                   maxLines: 2,
                   style: const TextStyle(
-                      fontSize: 12.0,
+                      fontSize: 14.0,
                       fontFamily: "sfpro",
                       fontWeight: FontWeight.w600),
                 ),
@@ -74,32 +72,32 @@ class _CardProductState extends State<CardProduct> {
                     const Icon(
                       Icons.star,
                       color: Color.fromRGBO(255, 187, 11, 1),
-                      size: 12,
+                      size: 14,
                     ),
                     const Icon(
                       Icons.star,
                       color: Color.fromRGBO(255, 187, 11, 1),
-                      size: 12,
+                      size: 14,
                     ),
                     const Icon(
                       Icons.star,
                       color: Color.fromRGBO(255, 187, 11, 1),
-                      size: 12,
+                      size: 14,
                     ),
                     const Icon(
                       Icons.star,
                       color: Color.fromRGBO(255, 187, 11, 1),
-                      size: 12,
+                      size: 14,
                     ),
                     const Icon(
                       Icons.star,
                       color: Color.fromRGBO(255, 187, 11, 1),
-                      size: 12,
+                      size: 14,
                     ),
                     Text(
                       "(${widget.score.toInt()})",
                       style: const TextStyle(
-                          fontSize: 12.0,
+                          fontSize: 14.0,
                           color: Color.fromRGBO(114, 114, 114, 1)),
                     )
                   ],
@@ -109,12 +107,12 @@ class _CardProductState extends State<CardProduct> {
                   Text(
                     "\$${widget.price}",
                     style: const TextStyle(
-                        fontSize: 14.0, fontWeight: FontWeight.bold),
+                        fontSize: 16.0, fontWeight: FontWeight.bold),
                   ),
                   const SizedBox(width: 3),
                   Text("\$${widget.priceOld}",
                       style: const TextStyle(
-                        fontSize: 14.0,
+                        fontSize: 16.0,
                         fontWeight: FontWeight.w800,
                         color: Colors.grey,
                         decoration: TextDecoration.lineThrough,
@@ -126,7 +124,7 @@ class _CardProductState extends State<CardProduct> {
                     const Icon(Icons.location_on, size: 14, color: Colors.grey),
                     Text("${widget.priceOld}km",
                         style: const TextStyle(
-                          fontSize: 12.0,
+                          fontSize: 14.0,
                           fontWeight: FontWeight.w800,
                           color: Colors.grey,
                         ))

@@ -1,6 +1,5 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:prueba/helper/responsive.dart';
 import 'package:prueba/pages/home_page.dart';
 
 void main() {
@@ -41,6 +40,7 @@ class MyApp extends StatelessWidget {
                         color: const Color.fromRGBO(229, 229, 229, 1),
                         borderRadius: BorderRadius.circular(10)),
                     child: const TextField(
+                      style: TextStyle(fontSize: 14),
                       decoration: InputDecoration(
                         icon: Icon(Icons.search),
                         border: InputBorder.none,
@@ -57,7 +57,8 @@ class MyApp extends StatelessWidget {
               backgroundColor: Colors.white,
               bottom: const TabBar(
                   labelColor: Color.fromRGBO(93, 95, 239, 1),
-                  labelStyle: TextStyle(fontWeight: FontWeight.w700),
+                  labelStyle:
+                      TextStyle(fontWeight: FontWeight.w700, fontSize: 14),
                   unselectedLabelColor: Colors.black,
                   indicatorColor: Color.fromRGBO(93, 95, 239, 1),
                   tabs: [
