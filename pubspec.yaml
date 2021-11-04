@@ -60,7 +60,17 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - assets/img/   
-
+    - assets/fonts/   
+  fonts:
+    - family: SFPRODISPLAY
+      fonts:
+        #- asset: assets/fonts/SFPRODISPLAYBLACKITALIC.OTF
+        #- asset: assets/fonts/SFPRODISPLAYBOLD.OTF
+        #- asset: assets/fonts/SFPRODISPLAYHEAVYITALIC.OTF
+        #- asset: assets/fonts/SFPRODISPLAYLIGHTITALIC.OTF
+        - asset: assets/fonts/SFPRODISPLAYREGULAR.OTF
+        
+   
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
 

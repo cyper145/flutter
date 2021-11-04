@@ -34,23 +34,23 @@ class _HomePagerState extends State<HomePage> {
               ),
             ),
             Row(
-              mainAxisAlignment: MainAxisAlignment.spaceAround,
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               //EL Stack funciona para superponer las vistas
               children: const [
                 CardProduct(
                     path: "assets/img/pollo.png",
-                    distance: 5,
-                    price: 10,
-                    priceOld: 8,
+                    distance: 7.51,
+                    price: 17.01,
+                    priceOld: 24.75,
                     score: 14,
                     title: "Pollo entero cortado ala xoz"),
                 CardProduct(
                     path: "assets/img/pollo.png",
-                    distance: 5,
-                    price: 10,
-                    priceOld: 8,
+                    distance: 6.91,
+                    price: 28.50,
+                    priceOld: 35.01,
                     score: 14,
-                    title: "Pollo entero cortado ala xoz"),
+                    title: "Pollo  x piezas cortado fresco"),
               ],
             ),
             Row(
@@ -59,16 +59,16 @@ class _HomePagerState extends State<HomePage> {
               children: const [
                 CardProduct(
                     path: "assets/img/pollo.png",
-                    distance: 5,
-                    price: 10,
-                    priceOld: 8,
+                    distance: 5.14,
+                    price: 10.01,
+                    priceOld: 8.01,
                     score: 14,
                     title: "Pollo entero cortado ala xoz"),
                 CardProduct(
                     path: "assets/img/pollo.png",
-                    distance: 5,
-                    price: 10,
-                    priceOld: 8,
+                    distance: 5.15,
+                    price: 10.15,
+                    priceOld: 8.01,
                     score: 14,
                     title: "Pollo x piezas cortado freso"),
               ],
@@ -79,16 +79,16 @@ class _HomePagerState extends State<HomePage> {
               children: const [
                 CardProduct(
                     path: "assets/img/pollo.png",
-                    distance: 5,
-                    price: 10,
-                    priceOld: 8,
+                    distance: 5.74,
+                    price: 10.75,
+                    priceOld: 8.31,
                     score: 14,
                     title: "Pollo entero cortado ala xoz"),
                 CardProduct(
                     path: "assets/img/pollo.png",
-                    distance: 5,
-                    price: 10,
-                    priceOld: 8,
+                    distance: 5.78,
+                    price: 10.56,
+                    priceOld: 8.21,
                     score: 14,
                     title: "Pollo entero cortado ala xoz"),
               ],
