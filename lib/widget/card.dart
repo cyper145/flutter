@@ -54,6 +54,7 @@ class _CardProductState extends State<CardProduct> {
             color: Colors.white10,
             width: responsive.wp(24),
             child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
                   widget.title,
